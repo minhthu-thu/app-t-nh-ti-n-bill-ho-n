@@ -8,7 +8,7 @@ st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 # Đường dẫn file dữ liệu dùng chung trên máy chủ
 CSV_FILE = "history.csv"
 
-# Thực đơn cố định của nhà hàng Mr. Bình
+# Thực đơn cố định của nhà hàng Mrs. Minh Thư
 menu = {
     "Đồ ăn": {
         "Pizza Hải Sản": 150000,
@@ -23,6 +23,7 @@ menu = {
     },
     "Thức uống": {
         "Coca Cola": 20000,
+        "Trà sữa sv":20000,
         "Trà Đào Cam Sả": 35000,
         "Cà Phê Sữa": 25000,
         "Nước Suối": 10000,
